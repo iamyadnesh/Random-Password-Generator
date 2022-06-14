@@ -1,0 +1,70 @@
+body {
+    background-color: #1C1C1C;
+    font-family: monospace;
+}
+
+.main {
+    background-color: #1F2937;
+    width: 70%;
+    margin:  8% auto;
+    padding : 40px 40px;
+
+}
+
+.main h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin : 10px;
+    color : #4ADF86;
+}
+
+.main p{
+    font-size: 28px;
+    font-weight: 400;
+    margin : 10px;
+    color: #E5E7EB;
+}
+
+#passbtn_generator {
+    margin : 10px;
+    background-color: #4ADF86;
+    color : #fff;
+    font-size: 20px;
+    cursor: grab;
+    border: none;
+    padding:10px 40px;
+    border-radius: 4px;
+    margin-top: 50px;
+    font-family: monospace;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.section_divider {
+    border: 1px solid #2F3E53;
+    margin: 40px 15px;
+}
+
+.grid input[type="text"] {
+    width : 100%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #273549;
+    color: #55F991;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid{
+        display: block;
+    }
+}
